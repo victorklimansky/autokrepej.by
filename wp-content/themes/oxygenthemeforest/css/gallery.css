@@ -1,0 +1,211 @@
+/* --
+Gallery CSS File
+This file contains styles related to the gallery section of the site.
+-- */
+
+
+body {
+	background: url(../images/content-wrapper-bg.png) top left repeat-x;
+}
+
+
+.gallery {
+	width: 925px;
+	margin: 0 auto;
+	padding: 37px 0;
+	overflow: hidden;
+}
+
+
+.gallery-top {
+	padding: 0 0 18px 0;
+	background: url(../images/gallery-top-bg.png) bottom left repeat-x;
+	overflow: hidden;
+}
+
+.gallery-top .logo-luszf {
+	float: left;
+}
+
+.gallery-top .logo-gallery {
+	margin: 19px 0 0 0;
+	float: right;
+}
+
+
+.gallery-left-side {
+	width: 650px;
+	margin-right: 25px;
+	float: left;
+}
+
+.gallery-right-side {
+	width: 250px;
+	padding-top: 23px;
+	float: left;
+}
+
+
+.index-list {
+	width: 665px;
+}
+
+.index-list .row {
+	padding: 23px 0 7px 0;
+	margin: 0 0 5px 0;
+	background: url(../images/index-list-row-bg.png) bottom left no-repeat;
+	overflow: hidden;
+}
+
+
+.open-title h1 {
+	width: 650px;
+	padding: 15px 0 20px 0;
+	margin: 2px 0 0 0;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.open-title h1 a {
+	color: #1c1c1c;
+	text-decoration: none;
+}
+
+.open-title h1 a:hover {
+	color: #004a7b;
+	text-decoration: underline;
+}
+
+.open-navigation {
+	width: 630px;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+
+.open-navigation div {
+	padding: 2px 0 0 0;
+	float: right;
+}
+
+.open-navigation div a {
+	margin: 0 0 0 18px;
+}
+
+.open-navigation div s {
+	padding: 2px 0 0 0;
+	color: #787878;
+	text-decoration: none;
+	float: right;
+}
+
+.open-navigation .back {
+	padding: 0 0 0 12px;
+	background: url(../images/ico-bullet-6.png) left 5px no-repeat;
+}
+
+.open-navigation .allgalleries {
+	padding: 0 0 0 18px;
+	background: url(../images/ico-bullet-9.png) left 4px no-repeat;  }
+
+.open-navigation .btn-1 {
+	margin: 0 5px 0 0;
+}
+
+
+.open-image {
+	width: 630px;
+	margin-bottom: 20px;
+	background-color: #dddddd;
+}
+
+.open-image td {
+	text-align: center
+}
+
+.open-image img {
+	margin: 0 auto;
+	border: none;
+	display: block;
+}
+
+
+.open-description {
+	margin: 0 0 20px 0;
+}
+
+
+.open-thumbnails {
+	width: 665px;
+	overflow: hidden;
+}
+
+.open-thumbnails {
+	list-style-type: none;
+}
+
+.open-thumbnails li {
+	margin: 0 15px 15px 0;
+	padding: 0;
+	float: left;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+.open-thumbnails li a {
+	width: 80px;
+	height: 80px;
+	text-decoration: none;
+	background: url(../images/blank.gif) 0 0 no-repeat;
+	position: absolute;
+	display: block;
+}
+
+.open-thumbnails li img {
+	display: block;
+	float: left;
+}
+
+.open-thumbnails .active a {
+	background: url(../images/open-thumbnails-active.png) center center no-repeat;
+}
+
+
+.index-item {
+	width: 118px;
+	margin: 0 10px 15px 0;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 16px;
+	float: left;
+}
+
+.index-item img {
+	padding: 0 0 9px 0;
+	margin-bottom: 4px;
+	background: url(../images/image-shadow-3.png) bottom center no-repeat;
+	display: block;
+}
+
+.index-item a {
+	color: #1c1c1c;
+	text-decoration: none;
+}
+
+.index-item a:hover	{
+	color: #004a7b;
+	text-decoration: underline;
+}
+
+
+.newest-galleries {
+	width: 260px;
+	overflow: hidden;
+}
+
+.newest-galleries img {
+	background: url(../images/image-shadow-4.png) bottom center no-repeat;
+	padding: 0 0 7px 0;
+	margin: 0 10px 5px 0;
+	float: left;
+}

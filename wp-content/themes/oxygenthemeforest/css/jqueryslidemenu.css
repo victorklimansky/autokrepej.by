@@ -1,0 +1,72 @@
+/* --
+Primary Horizontal Menu Slider CSS File
+This file contains styles related to the primary horizontal menu slider.
+-- */
+
+
+/* Top level list items */
+
+.jqueryslidemenu ul {
+	list-style-type: none;
+	position: relative;
+	z-index: 4;
+}
+
+.jqueryslidemenu ul li {
+	position: relative;
+}
+
+
+/* IE6 hack to get sub menu links to behave correctly */
+
+* html .jqueryslidemenu ul li a {
+	display: inline-block;
+}
+
+
+/* Tab link background during hover state */
+
+.jqueryslidemenu ul li a:hover {
+	background: black;
+	color: white;
+}
+
+
+/* 1st sub-level menu */
+
+.jqueryslidemenu ul li ul {
+	width: 210px;
+	background: url(../images/jqueryslidemenu-bg.png) bottom center no-repeat;
+	padding: 0 0 9px 0;
+	margin: -1px 0 0 -5px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	z-index: 2;
+}
+
+.menu-primary-slidemenu ul li ul {
+	margin: -1px 0 0 -4px;
+}
+
+
+/* Sub-level menu links style */
+
+.jqueryslidemenu ul li ul li a {
+	width: 164px;
+	padding: 11px 18px 10px 18px;
+	margin: 0 5px;
+	background: url(../images/jqueryslidemenu-sub-level-bg.png) top left repeat-x;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: #252525 0 1px 0;
+	text-decoration: none;
+	display: block;
+}
+
+
+/* Sub-menus hover style */
+
+.jqueryslidemenu ul li ul li a:hover {
+	background: #313131 url(../images/jqueryslidemenu-sub-level-bg.png) top left repeat-x;
+}

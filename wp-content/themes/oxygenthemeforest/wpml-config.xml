@@ -1,0 +1,13 @@
+<wpml-config>
+  <admin-texts>
+    <key name="ib1_title"/>
+    <key name="ib1_text"/>
+    <key name="ib2_title"/>
+    <key name="ib2_text"/>
+    <key name="ib3_title"/>
+    <key name="ib3_text"/>
+    <key name="ib4_title"/>
+    <key name="ib4_text"/>  
+    <key name="theme_footer_text"/>              
+  </admin-texts>
+</wpml-config>

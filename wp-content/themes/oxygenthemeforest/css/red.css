@@ -1,0 +1,102 @@
+/* --
+Color CSS File
+This file contains the red style of the site.
+-- */
+
+
+a {
+	color: #9c0001;
+}
+
+
+.header-wrapper {
+	background: url(../images/header-wrapper-red-bg.jpg) top center no-repeat;
+}
+
+
+.menu-primary-wrapper .menu-item a {
+	color: #450100;
+}
+
+.menu-primary-wrapper .menu-item a:hover {
+	color: #f72727;
+}
+
+.menu-primary-wrapper .menu-item a span {
+	background: url(../images/ico-bullet-red-1.png) right 6px no-repeat;
+}
+
+.menu-primary-wrapper .menu-item a:hover span {
+	background: url(../images/ico-bullet-red-19.png) right 6px no-repeat;
+}
+
+.menu-primary-wrapper li:hover > a {
+	color: #f72727;
+}
+
+.menu-primary-wrapper li:hover > a span {
+	background: url(../images/ico-bullet-red-19.png) right 6px no-repeat;
+}
+
+.menu-primary-color-dark .menu-item a {
+	color: #fff;
+}
+
+.menu-primary-color-dark .menu-item a span {
+	background: url(../images/ico-bullet-19.png) right 6px no-repeat;
+}
+
+.menu-primary-color-dark .menu-item a:hover {
+	color: #f72727;
+}
+
+
+.news-item .text h2 a:hover {
+	color: #9c0001;
+}
+
+
+.latest-event-item h3 a:hover {
+	color: #9c0001;
+}
+
+
+.latest-article-item .text h3 a:hover {
+	color: #9c0001;
+}
+
+
+.top-stories-item .title:hover i {
+	color: #ff1919;
+}
+
+
+.article-wrapper .title a:hover {
+	color: #9c0001;
+}
+
+
+.homepage-columns-item .title {
+	color: #450100;
+}
+
+
+.footer-wrapper {
+	background: url(../images/footer-wrapper-red-bg.jpg) top center no-repeat;
+}
+
+
+.more-link {
+	color: #fff;
+	text-shadow: #474747 0 1px 0;
+	background: #c10300 url(../images/ico-bullet-10.png) right 5px no-repeat;
+}
+
+.more-link:hover {
+	background: #e10300 url(../images/ico-bullet-10.png) right 5px no-repeat;
+}
+
+
+.tab-1 b:hover { 
+	color: #a80000;
+}

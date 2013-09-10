@@ -1,0 +1,711 @@
+/* --
+Shortcodes CSS File
+This file contains the shortcodes style of the site.
+-- */
+
+
+/* Style Index * /
+
+1.0 Global Elements
+2.0 Quotes Styling
+3.0 Contact Form Styling
+4.0 Spacers Styling
+5.0 Buttons Styling
+6.0 Layouts Styling
+7.0 Lists Styling
+
+
+/* 1.0 Global Elements */
+
+code {
+	margin: 0 0 25px 0;
+	padding: 15px 23px;
+	color: #004a7b;
+	border: 1px dotted #bbbbbb;
+	background: #efefef url(../images/code-bg.png) 0 15px repeat;
+	text-shadow: #fff 0 1px 0;
+	line-height: 18px;
+	display: block;
+}
+
+.shortcodes-wrapper h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 17px 0;
+}
+
+.shortcodes-quotes code {
+	margin: 0 0 30px 0;
+}
+
+.shortcodes-buttons .buttons-preview-wrapper {
+	margin: 0 0 15px 0;
+	overflow: hidden;
+}
+
+.shortcodes-buttons p, .shortcodes-layouts p, .shortcodes-lists p, .shortcodes-quotes p, .shortcodes-contact-form p, .shortcodes-spacers p {
+	margin: 0 0 10px 0;
+}
+
+
+/* 2.0 Quotes Styling */
+
+.content-wrapper .content blockquote {
+	border: none;
+}
+
+.content-wrapper .content .blockquote-default {
+	margin: 0 23px 25px 23px;
+}
+
+.content-wrapper .content .blockquote-default blockquote {
+	margin: 0;
+	padding: 0 0 0 11px;
+	border-left: 3px solid #c5c5c5;
+	font: italic 14px/20px Georgia, serif;
+}
+
+.content-wrapper .content .blockquote-curly-brackets {
+	margin: 0 23px 25px 23px;
+}
+
+.content-wrapper .content .blockquote-curly-brackets blockquote {
+	margin: -5px 0;
+	padding: 0 13px;
+	font: italic 14px/20px Georgia, serif;
+}
+
+.content-wrapper .content .blockquote-curly-brackets .tl {
+	width: 14px;
+	height: 7px;
+	background: url(../images/blockquote-2-tl-bg.png) top right no-repeat;
+}
+
+.content-wrapper .content .blockquote-curly-brackets .tr {
+	width: 14px;
+	height: 7px;
+	background: url(../images/blockquote-2-tr-bg.png) top left no-repeat;
+}
+
+.content-wrapper .content .blockquote-curly-brackets .ml {
+	width: 14px;
+	background: url(../images/blockquote-2-ml-bg.png) center left no-repeat;
+}
+
+.content-wrapper .content .blockquote-curly-brackets .mr {
+	width: 14px;
+	background: url(../images/blockquote-2-mr-bg.png) center right no-repeat;
+}
+
+.content-wrapper .content .blockquote-curly-brackets .bl {
+	width: 14px;
+	height: 7px;
+	background: url(../images/blockquote-2-bl-bg.png) bottom right no-repeat;
+}
+
+.content-wrapper .content .blockquote-curly-brackets .br {
+	width: 14px;
+	height: 7px;
+	background: url(../images/blockquote-2-br-bg.png) bottom left no-repeat;
+}
+
+.content-wrapper .content .blockquote-gradient-outside {
+	margin: -25px 23px 0 23px;
+	padding: 45px 0 0 0;
+	background: url(../images/blockquote-3-t-bg.png) top center no-repeat;
+}
+
+.content-wrapper .content .blockquote-gradient-outside blockquote {
+	margin: 0;
+	padding: 0 23px 45px 23px;
+	font: italic 16px/22px Georgia, serif;
+	background: url(../images/blockquote-3-b-bg.png) bottom center no-repeat;
+	text-align: center;
+}
+
+.content-wrapper .content .blockquote-standart-box {
+	margin: 0 23px 25px 23px;
+}
+
+.content-wrapper .content .blockquote-standart-box blockquote {
+	margin: 0;
+	padding: 14px 20px 16px 20px;
+	border: 3px solid #c5c5c5;
+	font: 14px/20px Georgia, serif;
+}
+
+.content-wrapper .content .blockquote-gradient-inside {
+	margin: 0 23px 25px 23px;
+	padding: 17px 0 0 0;
+	background: url(../images/blockquote-3-b-bg.png) top center no-repeat;
+}
+
+.content-wrapper .content .blockquote-gradient-inside blockquote {
+	margin: 0;
+	padding: 0 23px 17px 23px;
+	font: italic 16px/22px Georgia, serif;
+	background: url(../images/blockquote-3-t-bg.png) bottom center no-repeat;
+	text-align: center;
+}
+
+.content-wrapper .content .blockquote-quotation-marks {
+	margin: 0 23px 25px 23px;
+	padding: 17px 0 0 0;
+	background: url(../images/blockquote-6-t-bg.png) top left no-repeat;
+}
+
+.content-wrapper .content .blockquote-quotation-marks blockquote {
+	margin: -11px 0 0 0;
+	padding: 0 40px 9px 40px;
+	font: italic 16px/22px Georgia, serif;
+	background: url(../images/blockquote-6-b-bg.png) bottom right no-repeat;
+	text-align: center;
+}
+
+.content-wrapper .content .blockquote-dashed-box {
+	margin: 0 23px 25px 23px;
+}
+
+.content-wrapper .content .blockquote-dashed-box blockquote {
+	margin: 0;
+	padding: 14px 20px 16px 20px;
+	border: 2px dashed #a6a6a6;
+	font: 14px/20px Georgia, serif;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.content-wrapper .content .blockquote-gradient-box {
+	margin: 0 23px 25px 23px;
+}
+
+.content-wrapper .content .blockquote-gradient-box blockquote {
+	margin: -3px 0;
+	padding: 0 5px;
+	font: 14px/20px Georgia, serif;
+}
+
+.content-wrapper .content .blockquote-gradient-box .tl {
+	width: 18px;
+	height: 18px;
+	background: url(../images/blockquote-8-tl-bg.png) top right no-repeat;
+}
+
+.content-wrapper .content .blockquote-gradient-box .tm {
+	height: 18px;
+	background: url(../images/blockquote-8-tm-bg.png) top right repeat-x;
+}
+
+.content-wrapper .content .blockquote-gradient-box .tr {
+	width: 18px;
+	height: 18px;
+	background: url(../images/blockquote-8-tr-bg.png) top left no-repeat;
+}
+
+.content-wrapper .content .blockquote-gradient-box .ml {
+	width: 18px;
+	background: url(../images/blockquote-8-ml-bg.png) left top repeat-y;
+}
+
+.content-wrapper .content .blockquote-gradient-box .mr {
+	width: 18px;
+	background: url(../images/blockquote-8-mr-bg.png) left top repeat-y;
+}
+
+.content-wrapper .content .blockquote-gradient-box .bl {
+	width: 18px;
+	height: 18px;
+	background: url(../images/blockquote-8-bl-bg.png) bottom right no-repeat;
+}
+
+.content-wrapper .content .blockquote-gradient-box .bm {
+	height: 18px;
+	background: url(../images/blockquote-8-bm-bg.png) bottom left repeat-x;
+}
+
+.content-wrapper .content .blockquote-gradient-box .br {
+	width: 18px;
+	height: 18px;
+	background: url(../images/blockquote-8-br-bg.png) bottom left no-repeat;
+}
+
+
+/* 3.0 Contact Form Styling */
+
+.contact-form {
+	margin: 0 15px 35px 15px;
+	padding: 10px 0 0 0;
+}
+
+.contact-form td {
+	vertical-align: top;
+}
+
+.contact-form .label {
+	padding: 4px 0 0 0;
+	width: 100px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.contact-form .input-text {
+	width: 446px;
+	height: 25px;
+	padding: 0 7px;
+	font: 12px/18px Arial, sans-serif;
+	background: url(../images/comment-input-text-bg.png) 0 0 no-repeat;
+	border: none;
+}
+
+.contact-form .text-area .top {
+	width: 460px;
+	padding: 5px 7px;
+	background: url(../images/comment-textarea-t-bg.png) 0 0 no-repeat;
+}
+
+.contact-form .text-area .bottom {
+	width: 460px;
+	height: 4px;
+	background: url(../images/comment-textarea-b-bg.png) 0 0 no-repeat;
+}
+
+.contact-form .text-area textarea {
+	width: 446px;
+	height: 160px;
+	background: none;
+	border: none;
+	font: 12px/18px Arial, sans-serif;
+	overflow: hidden;
+}
+
+.contact-form .spacer {
+	width: 7px;
+	height: 7px;
+}
+
+.contact-form .btn-1 {
+	margin: 0;
+}
+
+
+/* 4.0 Spacers Styling */
+
+.spacer-solid-dotted {
+	margin: 0 0 25px 0;
+	height: 3px;
+	line-height: 3px;
+	background: url(../images/shortcode-spacer-1-bg.png) 0 0 repeat-x;
+}
+
+.spacer-triple-dotted {
+	margin: 0 0 25px 0;
+	height: 3px;
+	line-height: 3px;
+	background: url(../images/shortcode-spacer-2-bg.png) 0 0 repeat-x;
+}
+
+.spacer-thin-dotted {
+	margin: 0 0 25px 0;
+	height: 1px;
+	line-height: 1px;
+	background: url(../images/shortcode-spacer-3-bg.png) 0 0 repeat-x;
+}
+
+.spacer-thick-dashed {
+	margin: 0 0 25px 0;
+	height: 2px;
+	line-height: 2px;
+	background: url(../images/shortcode-spacer-4-bg.png) 0 0 repeat-x;
+}
+
+.spacer-thick-triangles {
+	margin: 0 0 25px 0;
+	height: 6px;
+	line-height: 6px;
+	background: url(../images/shortcode-spacer-5-bg.png) 0 0 repeat-x;
+}
+
+.spacer-thin-star {
+	margin: 0 0 25px 0;
+	height: 15px;
+	line-height: 15px;
+	background: url(../images/shortcode-spacer-6-bg.png) center center repeat-x;
+}
+
+.spacer-thick-insignia {
+	margin: 0 0 25px 0;
+	height: 33px;
+	line-height: 33px;
+	background: url(../images/shortcode-spacer-7-bg.png) center center repeat-x;
+}
+
+.spacer-dotted-emblem {
+	margin: 0 0 25px 0;
+	height: 36px;
+	line-height: 36px;
+	background: url(../images/shortcode-spacer-8-bg.png) center center repeat-x;
+}
+
+
+/* 5.0 Buttons Styling */
+
+.content-wrapper .content .btn-1-color-yellow {
+	color: #1e1e1e;
+	text-shadow: #fff 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-yellow i {
+	background: url(../images/btn-1-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-yellow b {
+	background: url(../images/btn-1-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-yellow u {
+	background: url(../images/btn-1-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-blue {
+	color: #fff;
+	text-shadow: #075170 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-blue i {
+	background: url(../images/btn-2-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-blue b {
+	background: url(../images/btn-2-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-blue u {
+	background: url(../images/btn-2-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-red {
+	color: #fff;
+	text-shadow: #6e090a 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-red i {
+	background: url(../images/btn-3-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-red b {
+	background: url(../images/btn-3-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-red u {
+	background: url(../images/btn-3-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-green {
+	color: #fff;
+	text-shadow: #0b5c0a 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-green i {
+	background: url(../images/btn-4-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-green b {
+	background: url(../images/btn-4-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-green u {
+	background: url(../images/btn-4-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-black {
+	color: #fff;
+	text-shadow: #303030 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-black i {
+	background: url(../images/btn-5-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-black b {
+	background: url(../images/btn-5-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-black u {
+	background: url(../images/btn-5-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-purple {
+	color: #fff;
+	text-shadow: #580077 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-purple i {
+	background: url(../images/btn-6-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-purple b {
+	background: url(../images/btn-6-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-purple u {
+	background: url(../images/btn-6-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-gray {
+	color: #5c5c5c;
+	text-shadow: #eeeeee 0 1px 0;
+}
+
+.content-wrapper .content .btn-1-color-gray i {
+	background: url(../images/btn-1-l-bg.png) 0 -25px no-repeat;
+}
+
+.content-wrapper .content .btn-1-color-gray b {
+	background: url(../images/btn-1-m-bg.png) 0 -25px repeat-x;
+}
+
+.content-wrapper .content .btn-1-color-gray u {
+	background: url(../images/btn-1-r-bg.png) 0 -25px no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-yellow {
+	color: #1e1e1e;
+	text-shadow: #fff 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-yellow i {
+	background: url(../images/btn-7-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-yellow b {
+	background: url(../images/btn-7-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-yellow u {
+	background: url(../images/btn-7-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-blue {
+	color: #fff;
+	text-shadow: #064863 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-blue i {
+	background: url(../images/btn-8-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-blue b {
+	background: url(../images/btn-8-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-blue u {
+	background: url(../images/btn-8-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-red {
+	color: #fff;
+	text-shadow: #5e0809 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-red i {
+	background: url(../images/btn-9-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-red b {
+	background: url(../images/btn-9-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-red u {
+	background: url(../images/btn-9-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-green {
+	color: #fff;
+	text-shadow: #095009 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-green i {
+	background: url(../images/btn-10-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-green b {
+	background: url(../images/btn-10-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-green u {
+	background: url(../images/btn-10-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-black {
+	color: #fff;
+	text-shadow: #095009 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-black i {
+	background: url(../images/btn-11-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-black b {
+	background: url(../images/btn-11-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-black u {
+	background: url(../images/btn-11-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-purple {
+	color: #fff;
+	text-shadow: #4e006a 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-purple i {
+	background: url(../images/btn-12-l-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-purple b {
+	background: url(../images/btn-12-m-bg.png) 0 0 repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-purple u {
+	background: url(../images/btn-12-r-bg.png) 0 0 no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-gray {
+	color: #6a6a6a;
+	text-shadow: #dbdbdb 0 1px 0;
+}
+
+.content-wrapper .content .btn-2-color-gray i {
+	background: url(../images/btn-7-l-bg.png) 0 -60px no-repeat;
+}
+
+.content-wrapper .content .btn-2-color-gray b {
+	background: url(../images/btn-7-m-bg.png) 0 -60px repeat-x;
+}
+
+.content-wrapper .content .btn-2-color-gray u {
+	background: url(../images/btn-7-r-bg.png) 0 -60px no-repeat;
+}
+
+.content-wrapper .content .btn-align-left {
+	margin: 0 15px 15px 0;
+}
+
+.content-wrapper .content .btn-align-right {
+	margin: 0 0 15px 15px;
+}
+
+
+/* 6.0 Layouts Styling */
+
+.content-wrapper .content .half-column-left {
+	margin: 0 35px 25px 0;
+	width: 276px;
+	float: left;
+}
+
+.content-wrapper .content .half-column-right {
+	margin: 0 0 25px 0;
+	width: 276px;
+	float: left;
+}
+
+.content-wrapper .content .one-third-column-1 {
+	margin: 0 35px 25px 0;
+	width: 172px;
+	float: left;
+}
+
+.content-wrapper .content .one-third-column-2 {
+	margin: 0 35px 25px 0;
+	width: 172px;
+	float: left;
+}
+
+.content-wrapper .content .one-third-column-3 {
+	margin: 0 0 25px 0;
+	width: 172px;
+	float: left;
+}
+
+.content-wrapper .content .one-fourth-column-1 {
+	margin: 0 35px 25px 0;
+	width: 120px;
+	float: left;
+}
+
+.content-wrapper .content .one-fourth-column-2 {
+	margin: 0 35px 25px 0;
+	width: 120px;
+	float: left;
+}
+
+.content-wrapper .content .one-fourth-column-3 {
+	margin: 0 35px 25px 0;
+	width: 120px;
+	float: left;
+}
+
+.content-wrapper .content .one-fourth-column-4 {
+	margin: 0 0 25px 0;
+	width: 120px;
+	float: left;
+}
+
+
+/* 7.0 Lists Styling */
+
+.content-wrapper .content .list-style-default, .list-style-check, .list-style-cross, .list-style-star, .list-style-atomic, .list-style-diamond, .list-style-block {
+	padding: 4px 0 0 0;
+	margin: 0 23px 15px 23px;
+}
+
+.content-wrapper .content .list-style-default li {
+	padding: 0 0 0 12px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-4.png) left 8px no-repeat;
+	list-style-type: none;
+}
+
+.content-wrapper .content .list-style-check li {
+	padding: 0 0 0 23px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-13.png) left 5px no-repeat;
+	list-style-type: none;
+}
+
+.content-wrapper .content .list-style-cross li {
+	padding: 0 0 0 23px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-14.png) left 5px no-repeat;
+	list-style-type: none;
+}
+
+.content-wrapper .content .list-style-star li {
+	padding: 0 0 0 23px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-15.png) left 5px no-repeat;
+	list-style-type: none;
+}
+
+.content-wrapper .content .list-style-atomic li {
+	padding: 0 0 0 23px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-16.png) left 5px no-repeat;
+	list-style-type: none;
+}
+
+.content-wrapper .content .list-style-diamond li {
+	padding: 0 0 0 23px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-17.png) left 5px no-repeat;
+	list-style-type: none;
+}
+
+.content-wrapper .content .list-style-block li {
+	padding: 0 0 0 18px;
+	line-height: 22px;
+	background: url(../images/ico-bullet-18.png) left 7px no-repeat;
+	list-style-type: none;
+}

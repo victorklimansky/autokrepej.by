@@ -1,0 +1,102 @@
+/* --
+Color CSS File
+This file contains the green style of the site.
+-- */
+
+
+a {
+	color: #216c00;
+}
+
+
+.header-wrapper {
+	background: url(../images/header-wrapper-green-bg.jpg) top center no-repeat;
+}
+
+
+.menu-primary-wrapper .menu-item a {
+	color: #1d6000;
+}
+
+.menu-primary-wrapper .menu-item a:hover {
+	color: #4fe02e;
+}
+
+.menu-primary-wrapper .menu-item a span {
+	background: url(../images/ico-bullet-green-1.png) right 6px no-repeat;
+}
+
+.menu-primary-wrapper .menu-item a:hover span {
+	background: url(../images/ico-bullet-green-19.png) right 6px no-repeat;
+}
+
+.menu-primary-wrapper li:hover > a {
+	color: #4fe02e;
+}
+
+.menu-primary-wrapper li:hover > a span {
+	background: url(../images/ico-bullet-green-19.png) right 6px no-repeat;
+}
+
+.menu-primary-color-dark .menu-item a {
+	color: #fff;
+}
+
+.menu-primary-color-dark .menu-item a span {
+	background: url(../images/ico-bullet-19.png) right 6px no-repeat;
+}
+
+.menu-primary-color-dark .menu-item a:hover {
+	color: #4fe02e;
+}
+
+
+.news-item .text h2 a:hover {
+	color: #216c00;
+}
+
+
+.latest-event-item h3 a:hover {
+	color: #216c00;
+}
+
+
+.latest-article-item .text h3 a:hover {
+	color: #216c00;
+}
+
+
+.top-stories-item .title:hover i {
+	color: #36e400;
+}
+
+
+.article-wrapper .title a:hover {
+	color: #216c00;
+}
+
+
+.homepage-columns-item .title {
+	color: #1d6000;
+}
+
+
+.footer-wrapper {
+	background: url(../images/footer-wrapper-green-bg.jpg) top center no-repeat;
+}
+
+
+.more-link {
+	color: #fff;
+	text-shadow: #474747 0 1px 0;
+	background: #2c8f00 url(../images/ico-bullet-10.png) right 5px no-repeat;
+}
+
+.more-link:hover {
+	background: #34a900 url(../images/ico-bullet-10.png) right 5px no-repeat;
+}
+
+
+.tab-1 b:hover { 
+	color: #0a9000;
+}
